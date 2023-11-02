@@ -5,7 +5,6 @@
   /* outline: 1px solid orange; */
 }
 body {
-  overflow-x: hidden;
   background: #02012e;
   color: antiquewhite;
 }
@@ -16,6 +15,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   margin-bottom: 2rem;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -242,7 +242,7 @@ ul {
     max-width: 700px;
   }
   ul {
-    gap: 10rem;
+    gap: 4rem;
   }
 
   .me {
