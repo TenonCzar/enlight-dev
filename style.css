@@ -228,6 +228,7 @@ ul {
   width: 100%;
   }
   .navbar .cont {
+    background-color: #1bbedf;
     gap: 10rem;
     justify-content: space-between;
   }
