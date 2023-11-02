@@ -8,6 +8,8 @@ body {
   overflow-x: hidden;
   background: #02012e;
   color: antiquewhite;
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
