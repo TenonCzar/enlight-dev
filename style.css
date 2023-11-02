@@ -180,7 +180,7 @@ ul {
   color: #0bd0f8;
 }
 
-.info {background-color: red;
+.info {
   display: flex;
   flex-direction: row;
   gap: 2rem;
