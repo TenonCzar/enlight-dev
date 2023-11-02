@@ -8,8 +8,6 @@ body {
   overflow-x: hidden;
   background: #02012e;
   color: antiquewhite;
-  height: 100vh;
-  width: 100vw;
 }
 
 .container {
@@ -22,7 +20,7 @@ body {
 
 .navbar {
   background-color: #1bbedf;
-  width: 1000%;
+  width: 100%;
   align-self: center;
 }
 .navbar .cont {
@@ -103,7 +101,7 @@ ul {
 
 .divide {
   background-color: #fff;
-  width: 1000%;
+  width: 100%;
   height: 50px;
   overflow-x: hidden;
 }
