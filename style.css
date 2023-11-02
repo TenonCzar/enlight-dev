@@ -18,7 +18,10 @@ body {
 }
 
 .navbar {
-  background-color: #1bbedf;}
+  background-color: #1bbedf;
+  width: 100%;
+  align-self: center;
+}
 .navbar .cont {
   display: flex;
   flex-direction: row;
@@ -221,7 +224,9 @@ ul {
   }
 
   .navbar {
-    background-color: #1bbedf;}
+    background-color: #1bbedf;
+  width: 100%;
+  }
   .navbar .cont {
     gap: 10rem;
     justify-content: space-between;
