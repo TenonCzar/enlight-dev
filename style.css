@@ -7,7 +7,6 @@
 body {
   background: #02012e;
   color: antiquewhite;
-  overflow-x: hidden;
 }
 
 .container {
@@ -18,8 +17,9 @@ body {
   margin-bottom: 2rem;
 }
 
+.navbar {
+  background-color: #1bbedf;}
 .navbar .cont {
-  background-color: #1bbedf;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -219,6 +219,9 @@ ul {
     width: 15%;
     max-width: 6rem;
   }
+
+  .navbar {
+    background-color: #1bbedf;}
   .navbar .cont {
     gap: 10rem;
     justify-content: space-between;
