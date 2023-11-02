@@ -225,7 +225,9 @@ ul {
 
   .navbar {
     background-color: #1bbedf;
-  width: 100vw;
+  width: 110%;
+  align-self: center;
+  justify-self: center;
   }
   .navbar .cont {
     background-color: #1bbedf;
@@ -267,13 +269,15 @@ ul {
     border: 1px dashed gray;
     max-width: 500px;
     justify-self: center;
+    padding: 1rem;
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1000px){
   .reach {
     align-self: center;
     justify-content: center;
     align-content: center;
+    margin-top: 4rem;
   }
 }
