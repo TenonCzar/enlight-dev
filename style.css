@@ -5,6 +5,7 @@
   /* outline: 1px solid orange; */
 }
 body {
+  overflow-x: hidden;
   background: #02012e;
   color: antiquewhite;
 }
@@ -102,6 +103,7 @@ ul {
   background-color: #fff;
   width: 1000%;
   height: 50px;
+  overflow-x: hidden;
 }
 
 /* ABOUT ME SECTION */
@@ -199,6 +201,7 @@ ul {
   .logo {
     display: block;
     width: 15%;
+    max-width: 6rem;
   }
   .navbar .cont{
     gap: 6rem;
