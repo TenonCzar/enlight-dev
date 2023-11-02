@@ -7,6 +7,7 @@
 body {
   background: #02012e;
   color: antiquewhite;
+  overflow-x: hidden;
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
 .navbar a {
   color: #fff;
   text-decoration: none;
-  font-size: 15q;
+  font-size: 12px;
 }
 
 ul {
@@ -171,14 +172,15 @@ ul {
   flex-direction: column;
   gap: 2rem;
   width: 80%;
-  max-width: 80vw;
+  /* max-width: 80vw; */
+  background-color: red;
 }
 
 .writeup span {
   color: #0bd0f8;
 }
 
-.info {
+.info {background-color: red;
   display: flex;
   flex-direction: row;
   gap: 2rem;
