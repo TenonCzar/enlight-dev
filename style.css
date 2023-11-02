@@ -19,7 +19,7 @@ body {
 
 .navbar {
   background-color: #1bbedf;
-  width: 100%;
+  width: 1000%;
   align-self: center;
 }
 .navbar .cont {
@@ -100,7 +100,7 @@ ul {
 
 .divide {
   background-color: #fff;
-  width: 100%;
+  width: 1000%;
   height: 50px;
 }
 
@@ -237,7 +237,7 @@ ul {
     max-width: 700px;
   }
   ul {
-    justify-content: space-between;
+    gap: 10rem;
   }
 
   .me {
