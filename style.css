@@ -40,7 +40,6 @@ body {
 }
 
 ul {
-  background-color: red;
   list-style: none;
   display: flex;
   flex-direction: row;
