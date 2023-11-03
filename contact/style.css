@@ -1,15 +1,9 @@
-* {
-    overflow-x: hidden;
-}
-
 
 body {
     background: url(/images/20231025_185837.png) rgb(5, 1, 33);
     background-size: cover;
     background-repeat: no-repeat;
 font-family: 'Oswald', sans-serif;
-    width: 100vw;
-    height: 100vh;
     color: #fff;
     font-size: 13px;
     padding: 4rem 5px;
