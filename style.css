@@ -203,7 +203,7 @@ ul {
     width: 15%;
     max-width: 6rem;
   }
-  .navbar .cont{
+  .navbar .cont {
     gap: 6rem;
   }
   .quick {
@@ -219,7 +219,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
   .logo {
     display: block;
     width: 15%;
@@ -228,9 +228,9 @@ ul {
 
   .navbar {
     background-color: #1bbedf;
-  width: 110%;
-  align-self: center;
-  justify-self: center;
+    width: 110%;
+    align-self: center;
+    justify-self: center;
   }
   .navbar .cont {
     background-color: #1bbedf;
@@ -242,7 +242,7 @@ ul {
     max-width: 700px;
   }
   ul {
-    gap: 4rem;
+    gap: 3rem;
   }
 
   .me {
@@ -276,7 +276,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
   .reach {
     align-self: center;
     justify-content: center;
