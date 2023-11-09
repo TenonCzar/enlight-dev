@@ -7,7 +7,7 @@
 body {
   background-image: linear-gradient(to top right, hsl(0, 100%, 50%), hsl(237, 100%, 50%));
   color: antiquewhite;
-  height: 100vh;
+  /* height: 100vh; */
   /* transition: background-color 0.5s; */
 }
 
