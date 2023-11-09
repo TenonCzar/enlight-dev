@@ -7,7 +7,7 @@
 body {
   background-image: linear-gradient(to top right, hsl(0, 100%, 50%), hsl(237, 100%, 50%));
   color: antiquewhite;
-  /* height: 100vh; */
+  height: 100%;
   /* transition: background-color 0.5s; */
 }
 
@@ -188,6 +188,7 @@ ul {
   width: 80%;
   display: flex;
   flex-direction: column;
+  font-size: 10px;
   gap: 2rem;
 }
 
