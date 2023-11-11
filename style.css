@@ -5,10 +5,8 @@
   /* outline: 1px solid orange; */
 }
 body {
-  background-image: linear-gradient(to top right, hsl(0, 100%, 50%), hsl(237, 100%, 50%));
-  color: antiquewhite;
+  color: #080468;
   height: 100%;
-  /* transition: background-color 0.5s; */
 }
 
 .container {
@@ -21,7 +19,8 @@ body {
 }
 
 .navbar {
-  background-color: #1bbedf;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #e1dddd;
   width: 100%;
   align-self: center;
 }
@@ -41,7 +40,7 @@ body {
 }
 
 .navbar a {
-  color: #fff;
+  color: #080468;
   text-decoration: none;
   font-size: 12px;
 }
@@ -82,7 +81,7 @@ ul {
 .pic {
   width: 40%;
   border: 2px solid #00bdfc;
-  box-shadow: 2px 2px 10px #00c8ff76;
+  box-shadow: 2px 2px 10px #08046876;
   border-radius: 50px;
   transition: border-color 0.5s;
 }
@@ -92,7 +91,7 @@ ul {
 
 @keyframes borderColorAnimation {
   0% {
-    border-color: #00bdfc;
+    border-color: #ffc609;
   }
   25% {
     border-color: #9a08c2f7;
@@ -101,7 +100,7 @@ ul {
     border-color: #5488f0f7;
   }
   75% {
-    border-color: #ef6c91f7;
+    border-color: #080468;
   }
   100% {
     border-color: #99ff00f7;
@@ -114,16 +113,17 @@ ul {
   gap: 5rem;
 }
 .wrk {
-  background-color: #fff;
-  padding: 5px;
+  background-color: #ffc609;
+  padding: 5.5px 15px;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
   font-size: 10px;
   cursor: pointer;
 }
 .hire {
-  background-color: blue;
-  padding: 5.5px;
+  background-color: #080468;
+  padding: 5.5px 15px;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -132,7 +132,7 @@ ul {
 }
 
 .divide {
-  background-color: #fff;
+  background-color: #ffc609;
   width: 100%;
   height: 50px;
   overflow-x: hidden;
@@ -147,6 +147,7 @@ ul {
   width: 90%;
   align-self: center;
   position: relative;
+  padding-bottom: 4rem;
 }
 .reach {
   display: flex;
@@ -155,8 +156,8 @@ ul {
   gap: 2rem;
 }
 .tag {
-  background-color: #fff;
-  color: #1c0649;
+  background-color: #ffc609;
+  color: #ffffff;
   padding: 1rem;
   text-align: center;
   align-self: center;
@@ -173,14 +174,15 @@ ul {
   left: 20%;
   border-left: 20px solid transparent;
   border-right: 30px solid transparent;
-  border-bottom: 30px solid #fff;
+  border-bottom: 30px solid #ffc609;
   transform: rotate(-90deg);
   z-index: -1;
 }
 
 .abt {
   width: 10rem;
-  box-shadow: 2px 2px 15px #2fe7ff;
+  box-shadow: 1px 1px 10px #080468;
+  border: 2px solid;
   border-radius: 20%;
 }
 
@@ -193,7 +195,8 @@ ul {
 }
 
 .writeup span {
-  color: #0bd0f8;
+  color: #080468;
+  font-weight: bold;
 }
 
 .info {
@@ -203,7 +206,7 @@ ul {
 }
 
 .info a {
-  color: #fff;
+  color: #080468;
   text-decoration: none;
 }
 
@@ -227,14 +230,14 @@ ul {
     gap: 2rem;
   }
   .writeup {
-    border: 1px dashed grey;
-  }
-  .myskill {
-    display: none;
+    border: 1px dashed #fff;
   }
 }
 
 @media screen and (min-width: 600px) {
+  /* body {
+    height: 100vh;
+  } */
   .logo {
     display: block;
     width: 15%;
@@ -242,13 +245,12 @@ ul {
   }
 
   .navbar {
-    background-color: #1bbedf;
     width: 110%;
     align-self: center;
     justify-self: center;
+    padding: 0 2rem 0 0;
   }
   .navbar .cont {
-    background-color: #1bbedf;
     gap: 10rem;
     justify-content: space-between;
   }
@@ -257,7 +259,7 @@ ul {
     max-width: 700px;
   }
   ul {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .me {
@@ -270,34 +272,47 @@ ul {
     flex-direction: row;
     gap: 4rem;
   }
-
-  .myskill {
-    display: none;
-    border: 1px solid #fff;
-    width: 25%;
-    position: fixed;
-    left: 10rem;
-    bottom: 20rem;
-    background-color: #00000046;
-  }
   .abt {
-    width: 35%;
-    /* max-width: 40rem; */
+    width: 15rem;
   }
   .writeup {
-    border: 1px dashed gray;
+    border: 1px dashed #080468;
     max-width: 500px;
     justify-self: center;
     padding: 1rem;
-    font-size: 19px;
+    font-size: 10px;
   }
+
 }
 
 @media screen and (min-width: 1000px) {
+  /* body {
+    height: 100vh;
+  } */
   .reach {
     align-self: center;
     justify-content: center;
     align-content: center;
     margin-top: 4rem;
+  }
+  .writeup {
+    border: 1px dashed #080468;
+    max-width: 400px;
+    justify-self: center;
+    padding: 1rem;
+    font-size: 12px;
+  }
+  .info {
+    font-size: 12px;
+  }
+
+  .abt {
+    width: 20%;
+  }
+  .navbar {
+    padding: 0;
+  }
+  ul {
+    gap: 5rem;
   }
 }

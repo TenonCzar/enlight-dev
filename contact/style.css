@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(/images/20231025_185837.png) rgb(5, 1, 33);
+  background: url(/images/20231025_185837.png) #fff;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Oswald", sans-serif;
@@ -13,7 +13,7 @@ body {
   padding: 4rem 5px;
 }
 .intro {
-  background-color: #f6f6f8a4;
+  background-color: #ffc609be;
   width: 80%;
   max-width: 500px;
   align-self: center;
